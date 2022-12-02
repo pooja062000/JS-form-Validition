@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+.background{
+    width: 76%;
+    height: 730px;
+    background-color: #03a9f429;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.border{
+    width: 50%;
+    height: 660px;
+    border:30px solid gray;  
+}
+
+.blue-color{
+width: 88%;
+height: 546px;
+background-color: #1876c1;
+margin-top: -602px;
+margin-left: 65px;
+border-radius: 13px;
+}
+
+.main-heading{
+color:white;
+font-family: 'Poppins', sans-serif;
+font-size: 26px;
+padding-top: 50px;
+text-align: center;
+}
+
+.login{
+width: 33%;
+height: 320px;
+float: left;
+margin-left: 161px;
+margin-top: 40px;
+border-top-left-radius: 6px;
+border-bottom-left-radius: 6px;
+background-color: white;
+}
+
+.from-img{
+width: 33%;
+height: 320px;
+float: left;
+margin-top: 40px;
+border-top-right-radius: 6px;
+border-bottom-right-radius: 6px;
+background-color: #f3fafb;
+}
+
+.from-img img{
+width: 100%;
+height: 300px;
+}
+.log-text{
+text-align: center;
+font-size: 17px;
+color: black;
+font-family: 'Poppins', sans-serif;
+margin-top: 28px;
+}
+
+.form {
+    display: grid;
+    width: 100%;
+    height: auto;
+    
+}
+
+.form_update{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_input {
+    position: absolute;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    width: 17%;
+    height: auto;
+    padding: 0.75rem 1rem;
+    border-style: solid;
+    z-index: 1;
+    border-color: hsl(110, 3%, 90%);
+    color :dde8e9;
+   border-radius: 25px;
+   margin-top: 18px;
+  float: left;
+    background-color: #f3fafb;
+}
+
+.button_submit {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    padding: 0.40rem 1rem;
+    border-color: hsl(110, 3%, 90%);
+    border-style: solid;
+    color: white;
+    border-radius: 25px;
+    margin-top: 18px;
+background-color: #1876c1;
+font-weight: 400;
+font-family: 'Work Sans', sans-serif;  
+}
+
+.form_alert {
+    position: absolute;
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    bottom: -1.5rem;
+    visibility: hidden;
+    color: hsl(0, 0%, 10%);
+}
+
+.error{
+    color: red;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.bottom-text{
+text-align: center;
+color: #d1e4e6;
+margin-top: 405px; 
+font-size: 13px;
+font-family: 'Poppins', sans-serif;
+}
